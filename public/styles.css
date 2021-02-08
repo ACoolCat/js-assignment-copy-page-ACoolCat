@@ -1,0 +1,59 @@
+*{
+  border: 1px solid gold;
+}
+
+body{
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main{
+  border: 0px;
+  padding: 0px;
+}
+
+.header{
+  display: inline-block;
+  width: 100vw;
+  background: #303030;
+  padding: 0px;
+  border: 0px;
+  border-left: -5px;
+  align-items: center;
+  padding: 1vh 0;
+}
+
+.header a{
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.header a:hover{
+  color: grey;
+}
+
+.header img{
+  width: 25px;
+  height: 25px;
+}
+
+.mac{
+  display: grid;
+  grid-template-columns: 75vw 25vw;
+  border-bottom: 2px solid grey
+}
+
+.macItems{
+  display: grid;
+  grid-template-columns: 5vw 5vw 10vw 5vw;
+
+}
+
+.macItems a{
+  margin-left: 2vw;
+  margin-top: 20px;
+}
