@@ -144,3 +144,22 @@ body{
   grid-row-start: 2;
   grid-column-start: 3;
 }
+
+.display{
+  display: grid;
+  grid-template-columns: 25vw auto;
+  border-bottom: 2px solid grey
+}
+
+.display h2{
+  grid-column-start: 1;
+}
+
+.displayInfo{
+  grid-column-start: 2;
+}
+
+.displayInfo dd{
+  margin-left: 0px;
+  margin-top: 5px;
+}
