@@ -60,6 +60,7 @@ body{
 
 .inchButtons{
   padding: 10vh 40vw;
+  border-bottom: 2px solid grey
 }
 
 .inchButtons button{
@@ -74,4 +75,16 @@ body{
 .inchButtons button:active, .inchButtons button:focus{
   border: solid	#0000FF;
   box-shadow: none;
+}
+
+.computer{
+  height: 25vh;
+  border: 1px solid grey;
+}
+
+.computer img{
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 200px;
 }
