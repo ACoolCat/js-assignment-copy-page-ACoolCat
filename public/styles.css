@@ -163,3 +163,35 @@ body{
   margin-left: 0px;
   margin-top: 5px;
 }
+
+.processor{
+  display: grid;
+  grid-template-columns: 25vw 50vw auto;
+  grid-template-rows: auto auto;
+  border-bottom: 2px solid grey
+}
+
+.processor h2{
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+#p1{
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+
+#p2{
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+
+#p3{
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+#p4{
+  grid-row-start: 2;
+  grid-column-start: 3;  
+}
