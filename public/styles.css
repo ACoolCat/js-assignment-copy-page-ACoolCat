@@ -109,3 +109,38 @@ body{
   list-style-type: none;
   display: inline;
 }
+
+.finish{
+  display: grid;
+  grid-template-columns: 35vw 7vw auto;
+  grid-template-rows: auto auto;
+  border-bottom: 2px solid grey;
+  margin-top: 50px;
+}
+
+.finish h2{
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.finish img{
+  width: 250px;
+  height: 125px;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 2
+}
+
+.finish li{
+  list-style-type: none;
+}
+
+#c1{
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+#c2{
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
