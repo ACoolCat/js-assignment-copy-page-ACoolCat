@@ -92,7 +92,7 @@ body{
 .touch{
   height: 15vh;
   display: grid;
-  grid-template-columns: 35vw 25vw;
+  grid-template-columns: 25vw 25vw;
   border-bottom: 2px solid grey;
   margin-top: 50px;
 }
@@ -100,7 +100,7 @@ body{
 .price{
   height: 15vh;
   display: grid;
-  grid-template-columns: 35vw 15vw 15vw 15vw 15vw;
+  grid-template-columns: 25vw 15vw 15vw 15vw 15vw;
   border-bottom: 2px solid grey;
   margin-top: 50px;
 }
@@ -316,4 +316,12 @@ body{
 .memoryList dd{
   margin-left: 0px;
   margin-top: 5px;
+}
+
+.graphics{
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 25vw 15vw 15vw;
+  border-bottom: 2px solid grey;
+  margin-top: 50px;
 }
