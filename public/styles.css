@@ -96,3 +96,16 @@ body{
   border-bottom: 2px solid grey;
   margin-top: 50px;
 }
+
+.price{
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 35vw 15vw 15vw 15vw 15vw;
+  border-bottom: 2px solid grey;
+  margin-top: 50px;
+}
+
+.price li{
+  list-style-type: none;
+  display: inline;
+}
