@@ -1,6 +1,6 @@
-*{
+/* *{
   border: 1px solid gold;
-}
+} */
 
 body{
   border: 0px;
@@ -79,7 +79,7 @@ body{
 
 .computer{
   height: 25vh;
-  border: 1px solid grey;
+  border-bottom: 2px solid grey
 }
 
 .computer img{
@@ -87,4 +87,12 @@ body{
   height: 150px;
   margin-top: 50px;
   margin-left: 200px;
+}
+
+.touch{
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 35vw 25vw;
+  border-bottom: 2px solid grey;
+  margin-top: 50px;
 }
